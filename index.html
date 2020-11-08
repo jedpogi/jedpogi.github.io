@@ -1,0 +1,105 @@
+<!Doctype html>
+<html lang="en">
+<head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178884658-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-178884658-1');
+</script>
+
+<link rel="icon" type="image/png" href="./favicon.ico"/>
+
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Jed Portfolio</title>
+<link rel="stylesheet" href="app.css">
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="nav-wrapper">
+            <ul>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Work Experience</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="logo-wrapper">
+            <img src='images/127.png' />
+            <div class="texted">WEB DEVELOPER • EG FAN BOY • GAMER</div>
+        </div>
+    </header>
+
+        <!-- Social Icons-->
+        <div class="social-icons">
+            <ul>
+              <li>
+                <a href="https://twitter.com/jedeeezy">
+                  <img src='images/twitter.png' />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/jedeeeezy/">
+                  <img src='images/instagram.png' />
+                </a>
+              </li>
+               <li>
+                <a href="https://github.com/jedpogi">
+                  <img src="images/github.png" alt="" />
+                </a>
+              </li> 
+              <li>
+                <a href="https://www.linkedin.com/in/jedev">
+                  <img src='images/linkedin.png' />
+                </a>
+              </li>
+            </ul>
+          </div>
+
+    <!-- <script>
+        
+        //document.getElementById("projects").onmouseover = function() {mouse_entering_function()};
+        var scroll = new SmoothScroll('a[href*="#"]');
+        speed:1000;
+        speedAsDuration:true;
+        
+       /** mouse_entering_function()
+        {
+            const text=baffle(".texted,.Front a,.text");
+        text.set({
+            characters: '█░▒ /░>/░ ▓▒░░▓ ███ >██>> ░░░░ ░█▒ >/>/ <░█▒',
+        speed: 75
+        })
+            
+        text.start();
+        text.reveal(4000);
+         }**/
+        const burger =document.querySelector('.ham-burger');
+        const nav = document.querySelector('.navb');
+        const links= document.querySelector('.nav-links');
+        burger.addEventListener('click',()=>
+        {
+            nav.classList.toggle('nav-active');
+        });
+    </script> -->
+    <script type="text/javascript">
+    const text=baffle(".texted,.header a");
+    text.set({
+        characters: '█░▒ /░>/░ ▓▒░░▓ ███ >██>> ░░░░ ░█▒ >/>/ <░█▒',
+        speed: 75,
+    })
+    text.start();
+    text.reveal(4000)
+    </script>
+</body>
+</html>

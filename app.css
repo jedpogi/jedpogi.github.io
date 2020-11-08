@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+  
+}
+
+@font-face{
+    font-family: 'Lemon/Milk';
+    src: url(font/LemonMilk.otf);
+    font-style:normal;
+    font-weight: 100;
+          }
+ul {
+    list-style: none;
+}
+
+h1,h2,h3,h4 {
+    color: #fff;
+    }
+
+a {
+color: #fff;
+text-decoration: none;
+}
+
+p {
+margin: 0.5rem 0;
+}
+
+img {
+width: 100%;
+}
+
+body {
+font-family: 'Arial', sans-serif;
+-webkit-font-smoothing: antialiased;
+background: #000;
+color: #999;
+}
+
+/* HEADER  */
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url('images/sitewallpaper.png') no-repeat center center/cover;
+}
+
+
+ .nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-wrapper ul {
+    margin-top: 50px;
+}
+
+.nav-wrapper ul li {
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+
+.nav-wrapper ul li a{
+    text-align: center;
+    font-family: 'Lemon/Milk';
+    src: url(font/LemonMilk.otf);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-wrapper ul li a:hover{
+    color:#00ff00
+} 
+/* */
+
+.logo-wrapper{
+    position: relative;
+    height: 100vh;
+}
+
+.logo-wrapper img {
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.texted{
+    font-family: 'Lemon/Milk';
+    src: url(font/LemonMilk.otf);
+      position: absolute;
+      left: 50%;
+      top: 85%;
+      transform: translate(-50%,-50%);
+    font-size: 15px;
+  }
+
+/* NAV HEADER ENDING */
+
+/* SOCIAL-ICONS START */
+.social-icons
+{
+  margin-top: 20px;
+    width: 100px;
+    height:200px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+    display: inline-block;
+    background: black;
+}
+.social-icons ul{
+  margin-top: 30px;
+}
+.social-icons ul li {
+  
+  display: block;
+  height: 30px;
+  width: 30px;
+  margin: 0 auto 30px;
+  cursor: pointer;
+  
+}
+
+.social-icons ul li a img {
+    width: 100%;
+}
+
+/* SOCIAL ICONS ENDING */
+
+
+
