@@ -135,10 +135,43 @@ color: #999;
 
 .about {
     background-color: white;
+    padding: 5%;
+}
+.about h1{
+    font-family: 'Lemon/Milk';
+    src: url(font/LemonMilk.otf);
+    font-size: 30px;
+}
+.about p{
+    font-family: "Open Sans", sans-serif;
+    color:black;
+}
+.about h1,h2{
+    color:black;
 }
 
-.about h1{
-    color:black;
+.about h2{
+    margin-top: 50px;
+    font-family: 'Lemon/Milk';
+    src: url(font/LemonMilk.otf);
+    font-size: 20px;
+}
+
+.about  .icon-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    /* width: 54px;
+    height: 54px;
+    transition: 0.5s;
+    margin-bottom: 20px;
+    margin-right: 10px; */
+}
+
+.about .icon-wrapper .icon{
+    margin-left: 30px;
+    font-size: 60px;
 }
 
 /* SOCIAL ICONS ENDING */
