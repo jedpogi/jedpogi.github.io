@@ -27,9 +27,12 @@
 <body>
     <!-- Header -->
     <header class="header">
+      <div class="menu">
+        <span class="bar"> </span>
+      </div>
         <div class="nav-wrapper">
             <ul>
-                <li><a href="#">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#">Work Experience</a></li>
                 <li><a href="#">Achievements</a></li>
                 <li><a href="#">Contact</a></li>
@@ -67,7 +70,7 @@
         </ul>
       </div>
     
-    <section class ="about">
+    <section class ="about" id="about">
       <div class="about-header">
         <h1>About</h1>
         <i class="fab fa-node-js"></i>
@@ -122,6 +125,8 @@
             nav.classList.toggle('nav-active');
         });
     </script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
     <script type="text/javascript">
     const text=baffle(".texted,.header a");
     text.set({

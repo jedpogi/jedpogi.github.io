@@ -133,6 +133,11 @@ color: #999;
     width: 100%;
 }
 
+/* SOCIAL ICONS ENDING */
+
+
+/* ABOUT PAGE START */
+
 .about {
     background-color: white;
     padding: 5%;
@@ -164,11 +169,6 @@ color: #999;
     justify-content: flex-start;
     flex-wrap: wrap;
     margin-top: 20px;
-    /* width: 54px;
-    height: 54px;
-    transition: 0.5s;
-    margin-bottom: 20px;
-    margin-right: 10px; */
 }
 
 .about .icon-wrapper .icon{
@@ -176,7 +176,108 @@ color: #999;
     font-size: 90px;
 }
 
-/* SOCIAL ICONS ENDING */
+/* ABOUT PAGE ENDING */
 
 
 
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px){
+    .menu{
+        display: block;
+        position: fixed;
+        width: 3rem;
+        height: 3rem;
+        top: 3rem;
+        right: 3rem;
+        z-index: 999;
+        cursor: pointer;
+    }
+
+    .bar,
+    .bar::before,
+    .bar::after{
+        position: absolute;
+        background-color:white;
+        margin:auto;
+        width:100%;
+        height: 3px;
+        content:"";
+        top:50%;
+        left:0;
+    }
+
+    .bar {
+        margin-top: -2px;
+    }
+
+    .bar::before{
+        top: -1.2rem;
+    }
+
+    .bar::after{
+        top: 1.2rem
+    }
+    
+    .bar::before,.bar::after{
+        transform: rotate(0deg);
+    }
+
+    .active .bar{
+        background-color:transparent;
+    }
+
+    .active .bar::before{
+        transform: rotate(45deg);
+    }
+
+    .active .bar::after{
+        transform: rotate(-45deg);
+    }
+
+    .active .bar::before,
+    .active .bar::after{
+        top:0;
+        background-color:black;
+    }
+
+    .nav-wrapper{
+        width: 25rem;
+        height: 100%;
+        background-color: white;
+        transform: translateX(50rem);
+        position: fixed;
+        z-index: 998;
+        line-height: 1;
+        font-size: 2.5rem;
+        transition: transform 0.5s cubic-bezier(0.56,0.1,0.34, 0.91);
+    }
+
+    .menu-open header .nav-wrapper{
+        transform: translateX(370px);
+    }
+
+    .nav-wrapper ul{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .nav-wrapper ul li{
+        display: block;
+        padding: 4rem 1rem;
+    }
+
+    .nav-wrapper ul li a{
+        color: black;
+    }
+
+
+
+    .logo-wrapper{
+        height: 100vh;
+        /* margin-top: 200px; */
+        position: static;
+    }
+
+}
