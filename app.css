@@ -145,6 +145,7 @@ color: #999;
 .about p{
     font-family: "Open Sans", sans-serif;
     color:black;
+    font-size: 18px;
 }
 .about h1,h2{
     color:black;
