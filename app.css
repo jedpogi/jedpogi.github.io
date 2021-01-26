@@ -275,7 +275,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 455px) {
   .menu-open header .nav-wrapper {
     transform: translateX(0);
   }
@@ -299,7 +299,7 @@ h2 {
   }
 
   .nav-wrapper {
-    width: 26rem;
+    width: 29rem;
     font-size: 1rem;
   }
 
