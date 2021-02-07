@@ -83,25 +83,26 @@ body {
 /* */
 
 .logo-wrapper {
-  position: relative;
-  height: 100vh;
+  display: flex;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap:4vh;
 }
 
 .logo-wrapper img {
-  width: 300px;
-  position: absolute;
-  left: 50%;
-  top: 45%;
-  transform: translate(-50%, -50%);
+    width:40vmin;
 }
 
 .texted {
   font-family: "Lemon/Milk";
   src: url(font/LemonMilk.otf);
-  position: absolute;
-  left: 50%;
-  top: 70%;
-  transform: translate(-50%, -50%);
+  white-space: nowrap;
   font-size: 15px;
 }
 
@@ -111,7 +112,6 @@ body {
 .social-icons {
   margin-top: 20px;
   width: 100px;
-  /* height:200px; */
   position: absolute;
   top: 50%;
   left: 0;
@@ -271,18 +271,9 @@ h2 {
   .nav-wrapper ul li a {
     color: black;
   }
-
-  .logo-wrapper {
-    height: 100vh;
-
-    position: static;
-  }
 }
 
 @media screen and (max-width: 510px) {
-  .logo-wrapper img {
-    max-width: 150px;
-  }
 
   .social-icons {
     width: 50px;
