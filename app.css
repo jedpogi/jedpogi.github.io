@@ -97,6 +97,20 @@ body {
 
 .logo-wrapper img {
     width:40vmin;
+    animation-name: moveToRight;
+    animation-duration: 3s;
+}
+
+@keyframes moveToRight {
+  0% {
+    transform: translateX(-10vw);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
 }
 
 .texted {
