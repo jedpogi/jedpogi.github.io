@@ -97,8 +97,7 @@ body {
 
 .logo-wrapper img {
     width:40vmin;
-    animation-name: moveToRight;
-    animation-duration: 3s;
+    animation: moveToRight 2.5s ease-in;
 }
 
 @keyframes moveToRight {
