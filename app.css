@@ -6,6 +6,7 @@
 
 html{
   scroll-behavior: smooth;
+  font-size: 10px;
 }
 
 @font-face {
@@ -60,12 +61,12 @@ body {
 }
 
 .nav-wrapper ul {
-  margin-top: 50px;
+  margin-top: 5rem;
 }
 
 .nav-wrapper ul li {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 1.5rem;
   text-transform: uppercase;
 }
 
@@ -73,7 +74,7 @@ body {
   text-align: center;
   font-family: "Lemon/Milk";
   src: url(font/LemonMilk.otf);
-  font-size: 20px;
+  font-size: 2rem;
   cursor: pointer;
 }
 
@@ -116,15 +117,15 @@ body {
   font-family: "Lemon/Milk";
   src: url(font/LemonMilk.otf);
   white-space: nowrap;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 /* NAV HEADER ENDING */
 
 /* SOCIAL-ICONS START */
 .social-icons {
-  margin-top: 20px;
-  width: 100px;
+  margin-top: 2rem;
+  width: 10rem;
   position: absolute;
   top: 50%;
   left: 0;
@@ -134,13 +135,13 @@ body {
   background: black;
 }
 .social-icons ul {
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 .social-icons ul li {
   display: block;
-  height: 30px;
-  width: 30px;
-  margin: 0 auto 30px;
+  height: 3rem;
+  width: 3rem;
+  margin: 0 auto 3rem;
   cursor: pointer;
 }
 
@@ -159,12 +160,12 @@ body {
 .about h1 {
   font-family: "Lemon/Milk";
   src: url(font/LemonMilk.otf);
-  font-size: 30px;
+  font-size: 3rem;
 }
 .about p {
   font-family: "Open Sans", sans-serif;
   color: black;
-  font-size: 18px;
+  font-size: 1.82rem;
 }
 .about h1,
 h2 {
@@ -172,10 +173,10 @@ h2 {
 }
 
 .about h2 {
-  margin-top: 50px;
+  margin-top: 5rem;
   font-family: "Lemon/Milk";
   src: url(font/LemonMilk.otf);
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .about .icon-wrapper {
@@ -183,12 +184,12 @@ h2 {
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .about .icon-wrapper .icon {
-  margin-left: 30px;
-  font-size: 90px;
+  margin-left: 3rem;
+  font-size: 9rem;
 }
 
 /* ABOUT PAGE ENDING */
@@ -198,10 +199,10 @@ h2 {
   .menu {
     display: block;
     position: fixed;
-    width: 3rem;
-    height: 3rem;
-    top: 3rem;
-    right: 3rem;
+    width: 4.8rem;
+    height: 4.8rem;
+    top: 4.8rem;
+    right: 4.8rem;
     z-index: 999;
     cursor: pointer;
   }
@@ -213,22 +214,22 @@ h2 {
     background-color: white;
     margin: auto;
     width: 100%;
-    height: 3px;
+    height: .3rem;
     content: "";
     top: 50%;
     left: 0;
   }
 
   .bar {
-    margin-top: -2px;
+    margin-top: -.2rem;
   }
 
   .bar::before {
-    top: -1.2rem;
+    top: -1.9rem;
   }
 
   .bar::after {
-    top: 1.2rem;
+    top: 1.9rem;
   }
 
   .bar::before,
@@ -258,11 +259,11 @@ h2 {
     width: 50%;
     height: 100%;
     background-color: white;
-    transform: translateX(50rem);
+    transform: translateX(100rem);
     position: fixed;
     z-index: 998;
     line-height: 1;
-    font-size: 2.5rem;
+    font-size: 4rem;
     transition: transform 0.5s cubic-bezier(0.56, 0.1, 0.34, 0.91);
   }
 
@@ -278,7 +279,7 @@ h2 {
 
   .nav-wrapper ul li {
     display: block;
-    padding: 4rem 1rem;
+    padding: 6.4rem 1.6rem;
   }
 
   .nav-wrapper ul li a {
@@ -289,17 +290,17 @@ h2 {
 @media screen and (max-width: 510px) {
 
   .social-icons {
-    width: 50px;
+    width: 5rem;
   }
 
   .texted {
     top: 65%;
-    font-size: 10px;
+    font-size: 1rem;
     white-space: nowrap;
   }
 
   .nav-wrapper ul li a {
-    font-size: 13px;
+    font-size: 1.3rem;
   }
 
   .nav-wrapper {
@@ -307,10 +308,10 @@ h2 {
   }
 
   .about h1 {
-    font-size: 20px;
+    font-size: 2rem;
   }
   .about p {
-    font-size: 13px;
+    font-size: 1.3rem;
   }
   .about h1,
   h2 {
@@ -318,10 +319,10 @@ h2 {
   }
 
   .about h2 {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 
   .about .icon-wrapper .icon {
-    font-size: 48px;
+    font-size: 4.8rem;
   }
 }
