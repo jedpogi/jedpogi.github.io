@@ -1,113 +1,134 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178884658-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-178884658-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'UA-178884658-1');
-  </script>
+      gtag("config", "UA-178884658-1");
+    </script>
 
-  <link rel="icon" type="image/png" href="./favicon.ico"/>
+    <link rel="icon" type="image/png" href="./favicon.ico" />
 
-  <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>Jed Portfolio</title>
+    <link rel="stylesheet" href="app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 
-  <title>Jed Portfolio</title>
-  <link rel="stylesheet" href="app.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
-  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
-</head>
-<body>
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+  </head>
+  <body>
     <!-- Header -->
     <header class="header">
       <div class="menu">
         <span class="bar"> </span>
       </div>
-        <div class="nav-wrapper">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#">Work Experience</a></li>
-                <li><a href="#">Achievements</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div class="logo-wrapper">
-            <img src='images/127.png' />
-            <div class="texted">WEB DEVELOPER • EG FAN BOY • GAMER</div>
-        </div>
-    </header>
-
-        <!-- Social Icons-->
-    <div class="social-icons">
+      <div class="nav-wrapper">
         <ul>
-          <li>
-            <a href="https://twitter.com/jedeeezy">
-              <img src='images/twitter.png' />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/jedeeeezy/">
-              <img src='images/instagram.png' />
-            </a>
-          </li>
-            <li>
-            <a href="https://github.com/jedpogi">
-              <img src="images/github.png" alt="" />
-            </a>
-          </li> 
-          <li>
-            <a href="https://www.linkedin.com/in/jedev">
-              <img src='images/linkedin.png' />
-            </a>
-          </li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#">Work Experience</a></li>
+          <li><a href="#">Achievements</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
-    
-    <section class ="about" id="about">
+      <div class="logo-wrapper">
+        <img src="images/127.png" />
+        <div class="texted">WEB DEVELOPER • EG FAN BOY • GAMER</div>
+      </div>
+    </header>
+
+    <!-- Social Icons-->
+    <div class="social-icons">
+      <ul>
+        <li>
+          <a href="https://twitter.com/jedeeezy">
+            <img src="images/twitter.png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/jedeeeezy/">
+            <img src="images/instagram.png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/jedpogi">
+            <img src="images/github.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jedev">
+            <img src="images/linkedin.png" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <section class="about" id="about">
       <div class="about-header">
         <h1>About</h1>
-        <p>
-          Ola Amigo, my name is Jed. I am a <b>Web Developer</b>. Graduated from University of Pangasinan with the course <b>Bachelor of Science in Information Technology</b>. I am currently specializing in backend development but very much interested learning frontend development more to be a skilled full stack developer.
+        <p data-aos="fade-up" data-aos-delay="300">
+          Ola Amigo, my name is Jed. I am a <b>Web Developer</b>. Graduated from
+          University of Pangasinan with the course
+          <b>Bachelor of Science in Information Technology</b>. I am currently
+          specializing in backend development but very much interested learning
+          frontend development more to be a skilled full stack developer.
         </p>
       </div>
 
-      <div class ="about-technologies">
-        <h2>
-          Technologies I use:
-        </h2>
-        <div class="icon-wrapper">
+      <div class="about-technologies">
+        <h2>Technologies I use:</h2>
+        <div data-aos="fade-up" data-aos-delay="300" class="icon-wrapper">
           <div class="icon"><i class="devicon-nodejs-plain colored"></i></div>
           <div class="icon"><i class="devicon-react-original colored"></i></div>
-          <div class="icon"><i class="devicon-javascript-plain colored"></i></div>
+          <div class="icon">
+            <i class="devicon-javascript-plain colored"></i>
+          </div>
           <div class="icon"><i class="devicon-html5-plain colored"></i></div>
           <div class="icon"><i class="devicon-css3-plain colored"></i></div>
-          <div class="icon"><i class="devicon-sequelize-plain colored"></i></div>
+          <div class="icon">
+            <i class="devicon-sequelize-plain colored"></i>
+          </div>
           <div class="icon"><i class="devicon-mysql-plain colored"></i></div>
           <div class="icon"><i class="devicon-git-plain colored"></i></div>
           <div class="icon"><i class="devicon-docker-plain colored"></i></div>
-          <div class="icon"><i class="devicon-kubernetes-plain colored"></i></div>
-        </div>  
-
+          <div class="icon">
+            <i class="devicon-kubernetes-plain colored"></i>
+          </div>
+        </div>
       </div>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="main.js"></script>
-    <script type="text/javascript">
-    const text=baffle(".texted,.header a");
-    text.set({
-        characters: '█░▒ /░>/░ ▓▒░░▓ ███ >██>> ░░░░ ░█▒ >/>/ <░█▒',
-        speed: 75,
-    })
-    text.start();
-    text.reveal(4000)
+    <script>
+      AOS.init({
+        once: true,
+      });
     </script>
-</body>
+    <script type="text/javascript">
+      const text = baffle(".texted,.header a");
+      text.set({
+        characters: "█░▒ /░>/░ ▓▒░░▓ ███ >██>> ░░░░ ░█▒ >/>/ <░█▒",
+        speed: 75,
+      });
+      text.start();
+      text.reveal(4000);
+    </script>
+  </body>
 </html>

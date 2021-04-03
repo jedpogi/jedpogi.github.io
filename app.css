@@ -155,7 +155,8 @@ body {
 
 .about {
   background-color: white;
-  padding: 5%;
+  padding: 10%;
+  min-height: 100vh;
 }
 .about h1 {
   font-family: "Lemon/Milk";
