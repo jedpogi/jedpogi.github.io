@@ -164,6 +164,7 @@ body {
   font-size: 3rem;
 }
 .about p {
+  margin-top: 2rem;
   font-family: "Open Sans", sans-serif;
   color: black;
   font-size: 1.82rem;
@@ -171,6 +172,8 @@ body {
 .about h1,
 h2 {
   color: black;
+  width: fit-content;
+  border-bottom: 2px solid currentColor;
 }
 
 .about h2 {
@@ -180,12 +183,16 @@ h2 {
   font-size: 2rem;
 }
 
+.about-technologies {
+  margin-top: 10rem;
+}
+
 .about .icon-wrapper {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .about .icon-wrapper .icon {
